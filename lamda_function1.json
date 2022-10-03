@@ -17,7 +17,7 @@
                     ]
                 },
                 "Code": {
-                    "S3Bucket": "boto3-test-krishh",
+                    "S3Bucket": "demoec2stopstart",
                     "S3Key": "demoec2.zip"
                 },
                 "Runtime": "python3.9",

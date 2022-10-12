@@ -18,7 +18,7 @@
                 },
                 "Code": {
                     "S3Bucket": "demoec2stopstart",
-                    "S3Key": "demoec2.zip"
+                    "S3Key": "StopEc2.zip"
                 },
                 "Runtime": "python3.9",
                 "Timeout": 30,

@@ -9,7 +9,7 @@
         "StopInstanceLambda": {
             "Type": "AWS::Lambda::Function",
             "Properties": {
-                "Handler": "lambda_function.lambda_handler",
+                "Handler": "StopEc2.lambda_handler",
                 "Role": {
                     "Fn::GetAtt": [
                         "StopInstanceLambdaRole",

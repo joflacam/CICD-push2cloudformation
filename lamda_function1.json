@@ -69,6 +69,13 @@
                             "Action": [
                                 "ec2:Start*",
                                 "ec2:Stop*"
+                                "ec2:CancelSpotFleetRequests",
+                                "ec2:DeleteFleets",
+                                "ec2:DescribeFleetInstances",
+                                "ec2:DescribeFleets",
+                                "ec2:DescribeInstances",
+                                "ec2:DescribeSpotFleetInstances",
+                                "ec2:DescribeSpotFleetRequests"
                             ],
                             "Resource": "*"
                         },
